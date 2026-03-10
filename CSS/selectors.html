@@ -1,0 +1,54 @@
+<!-- 
+ CSS SELECTORS
+- Basic selectors (universal, type, class, ID, attribute)
+- Combinators (descendant, child, sibling)
+- Pseudo-classes (:hover, :focus, :nth-child)
+- Pseudo-elements (::before, ::after)
+
+BASIC SELCTORS
+Apply styles to elements based on:
+- tag names
+- IDs
+-classes
+- attributes
+
+Universal Selector (* {}) 
+Removes default margin padding from all elements in example below:
+
+ 
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+
+ <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: red;
+        }
+    </style>
+
+<style>
+    h1 {
+        color: darkblue;
+        font-size: 24px;
+    }
+    p {
+     color: gray;   
+    }
+</style>
+</head>
+
+<body>
+    <h1>this is a header</h1>
+    <p>this is a paragraph</p>
+</body>
